@@ -1,0 +1,5 @@
+forecaster,Median,Q1,Q3,Min,Max
+Chronos-Small,1.13,0.83,1.53,0.6,2.69
+GJR-GARCH-t,0.53,0.48,0.63,0.34,0.94
+Moirai-2.0,0.59,0.52,0.67,0.35,0.75
+TimesFM-2.5,0.63,0.55,0.77,0.35,0.9

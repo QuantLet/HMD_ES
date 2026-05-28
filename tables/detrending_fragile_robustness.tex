@@ -1,0 +1,16 @@
+\begin{tabular}{lrrr}
+\toprule
+Noise scale & Fragile @ $\alpha{=}1\%$ & Fragile @ $\alpha{=}2.5\%$ & Fragile @ $\alpha{=}5\%$ \\
+\midrule
+  Plug-in $\hat{C}/\!\sqrt{n\alpha}$ & 27.1\% & 20.1\% & 18.1\% \\
+\midrule
+  Detrended SD: MA-126 & 16.0\% & 16.0\% & 15.3\% \\
+  Detrended SD: MA-252 & 17.4\% & 17.4\% & 15.3\% \\
+  Detrended SD: MA-504 & 20.8\% & 17.4\% & 17.4\% \\
+  Detrended SD: HP ($\lambda{=}1600$) & 17.4\% & 17.4\% & 16.0\% \\
+  Detrended SD: Rolling median 252 & 18.1\% & 17.4\% & 15.3\% \\
+  Raw SD (no detrending) & 36.8\% & 29.2\% & 25.0\% \\
+\midrule
+  Paired block bootstrap (block${=}$21) & --- & 22.9\% & --- \\
+\bottomrule
+\end{tabular}

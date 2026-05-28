@@ -1,0 +1,17 @@
+Name of QuantLet: HMD_ES
+
+Published in: 'Finite-Sample Precision Limits for Expected Shortfall Forecast Comparisons'
+
+Description: 'Implements a precision-audit framework for Expected Shortfall forecast comparison under effective tail sample-size scarcity. The main pipeline computes rolling-window Fissler-Ziegel recalibration across 24 global assets, four forecasters (GJR-GARCH-t, TimesFM 2.5, Chronos-Small, Moirai 2.0), and three tail levels. Diagnostics include a plug-in precision benchmark, a finite-sample sample-size rule, a precision-fragile pairwise comparison screen, and a VaR-first diagnostic for excess ES dispersion.'
+
+Keywords: 'Expected Shortfall, Value-at-Risk, effective tail sample size, precision-fragile comparison, Fissler-Ziegel score, sample-size rule, minimax lower bound, rolling window, recalibration, GARCH, foundation models, tail risk, FRTB, finite-sample inference'
+
+See also: 'SFEtailGEV_pp, SFEtailGEV_qq, SFEtailGPareto_pp, SFEvar_block_max_params, STFloss09'
+
+Author: Daniel Traian Pele, Miruna Mazurencu-Marinescu-Pele
+
+Submitted: Wed, May 28 2026 by Daniel Traian Pele
+
+Datafiles: 'data/recalib_results.csv, data/rolling_estimates.csv'
+
+Example: 'Run python code/pipeline.py to produce rolling FZ recalibration results. Run python code/regen_all_figures.py to regenerate all figures and LaTeX tables.'
