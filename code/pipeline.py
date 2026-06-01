@@ -227,6 +227,7 @@ def kupiec_p(X, V, alpha):
 # ── main ───────────────────────────────────────────────────────────
 
 def run():
+    np.random.seed(42)  # deterministic FZ random restarts -> bit-exact reproducibility
     results = []
     all_rolling = []
     total = len(ASSETS) * len(FORECASTERS) * len(ALPHAS)
